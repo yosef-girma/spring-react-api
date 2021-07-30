@@ -8,7 +8,3 @@ spring:
       url: "jdbc:postgresql://localhost:5432/ems_db"
       username: joseph
       password: password
-  security:
-    user:
-      name: joseph
-      password: hello
