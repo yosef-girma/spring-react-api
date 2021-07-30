@@ -3,8 +3,12 @@ spring:
     hibernate:
       ddl-auto: update
     database-platform: org.hibernate.dialect.PostgreSQLDialect
-    show-sql: true
+    show-sql: false
   datasource:
       url: "jdbc:postgresql://localhost:5432/ems_db"
       username: joseph
       password: password
+  security:
+    user:
+      name: joseph
+      password: hello
